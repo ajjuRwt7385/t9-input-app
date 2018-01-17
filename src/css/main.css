@@ -1,0 +1,69 @@
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+p{
+    font-weight: bold;
+    margin:10px 0 5px;
+}
+p.msg{
+    font-weight: normal;
+    color:#999;
+    margin:0;
+    line-height: 30px;
+}
+.container{
+    background: #333;
+    text-align: center;
+    width:100%;
+    height:100%;
+}
+.content{
+    display: inline-block;
+    height:inherit;
+}
+.t9-app{    
+    display: table;
+    height: inherit;    
+}
+.app-content{
+    display: table-cell;
+    vertical-align: middle;
+}
+.app-content>div{
+    background: #efefef;
+    padding:10px;
+    display: inline-block;
+    width:300px;
+}
+.addToDictionary{
+    display: inline-block;
+    margin-top:10px;
+}
+.whitebox{
+    background:#fff;
+    width:100%;
+    min-height:30px;
+    line-height: 30px;
+    margin:5px 0;
+}
+.extras{
+    padding:10px;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:10px;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    padding:10px 2px;
+}
+ul li button{
+    width:80px;
+}
+ul li:nth-child(3n+1){
+    clear:left;
+}
